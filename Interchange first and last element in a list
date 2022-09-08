@@ -1,0 +1,7 @@
+a=input("enter the numbers :").split(",")
+b=list(map(int,a))
+res=b[0]
+res1=b[-1]
+b[-1]=res
+b[0]=res1
+print(b)

@@ -1,0 +1,11 @@
+list=[]
+n=int(input("enter the numbers :"))
+for i in range(0,n):
+    ele=int(input("enter the element"))
+    list.append(ele)
+pos1=int(input("enter teh position of 1st element "))
+pos2=int(input("enter the position of 2nd element "))
+temp=list[pos1-1]
+list[pos1-1]=list[pos2-1]
+list[pos2-1]=temp
+print(list)

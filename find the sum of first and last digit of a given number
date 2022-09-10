@@ -1,0 +1,10 @@
+str=input("enter the string :")
+l=len(str)
+if(l>1):
+    a=int(str[0])
+    b=int(str[-1])
+    c=a+b
+    print(c)
+else:
+    a=int(str[0])
+    print(a)

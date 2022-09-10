@@ -1,0 +1,7 @@
+str=input("enter the string :")
+p=set(str)
+s={'1','0'}
+if s==p or p=={'0'} or p=={"1"}:
+    print("yes")
+else:
+    print("no")

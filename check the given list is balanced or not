@@ -1,0 +1,11 @@
+list=[]
+n=int(input("enter the no. of elements"))
+for i in range(0,n):
+    ele=int(input("enter the elements :"))
+    list.append(ele)
+result=False
+for i in range(len(list)):
+    if(sum(list[:i])==sum(list[i:])):
+        result=True
+        break
+print("list is balanced")

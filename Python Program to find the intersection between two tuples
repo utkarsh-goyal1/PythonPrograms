@@ -1,0 +1,18 @@
+tup=[]
+n=int(input("enter the numbers :"))
+for i in range(0,n):
+    ele=int(input("enter the element"))
+    tup.append(ele)
+tuple(tup)
+tup1=[]
+n1=int(input("enter the numbers :"))
+for i in range(0,n1):
+    ele=int(input("enter the element"))
+    tup1.append(ele)
+tuple(tup1)
+tup2=[]
+for i in tup:
+    if(i in tup1):
+        tup2.append(i)
+
+print(tuple(tup2))

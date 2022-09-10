@@ -1,0 +1,11 @@
+a=input("enter the string: ")
+l=len(a)
+ch=a[0]
+c=0
+for i in a:
+    if(ch==i):
+        c+=1
+if(c==l):
+    print("string is same")
+else:
+    print("string is different")

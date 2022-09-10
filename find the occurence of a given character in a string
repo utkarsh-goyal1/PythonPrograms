@@ -1,0 +1,7 @@
+str=input("enter the string :")
+choice=input("enter the character :")
+c=0
+for i in str:
+    if(i==choice):
+        c+=1
+print("occurence of a given character is",c)

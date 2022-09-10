@@ -1,0 +1,7 @@
+str=list(input("enter the string :"))
+choice=input("enter character you want to replace")
+choice1=input("enter character for replacement")
+for i in range(0,len(str)):
+    if str[i] == choice:
+        str[i] = choice1
+print("".join(str))

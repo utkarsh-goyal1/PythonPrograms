@@ -1,0 +1,5 @@
+from collections import Counter
+string=input("enter the string :")
+result=Counter(string)
+result=min(result,key=result.get)
+print("least frequency character is "+result)

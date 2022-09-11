@@ -1,0 +1,11 @@
+list1=input("enter the list").split(",")
+list1=list(map(int,list1))
+list2=input("entre the list").split(",")
+list2=list(map(int,list2))
+l3 =[]
+for i in range (0,len(list1)):
+    l2 = []
+    l2.append(list1[i])
+    l2.append(list2[i])
+    l3.append(tuple(l2))
+print(l3)

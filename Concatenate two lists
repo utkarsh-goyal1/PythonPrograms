@@ -1,0 +1,5 @@
+a=list(input("enter the list :"))
+b=list(map(int,a))
+c=list(input("enter 2nd list :"))
+d=list(map(int,c))
+print(b.extend(d))

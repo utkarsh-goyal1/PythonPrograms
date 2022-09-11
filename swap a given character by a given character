@@ -1,0 +1,5 @@
+str=input("enter the string :")
+a=input("enter the character :")
+b=input("enter the charcter for swapping")
+res=str.replace(a,b)
+print(res)

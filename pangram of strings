@@ -1,0 +1,11 @@
+import string
+str="the five boxing wizards jump quickly"
+c=0
+alphabet="abcdefghijklmnopqrstuvwxyz"
+for char in alphabet:
+    if char not in str.lower():
+        print("not panagram")
+    else:
+        c+=1
+if (c==26):
+    print("panagram")

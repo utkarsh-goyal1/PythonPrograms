@@ -1,0 +1,9 @@
+str=input("enter the string:")
+str=list(str)
+l=len(str)
+for i in range(l):
+    if(str[i]>='a' and str[i]<='z'):
+        str[i]=chr(ord(str[i])-32)
+    elif(str[i]>='A' and str[i]<='Z'):
+        str[i]=chr(ord(str[i])+32)
+print("".join(str))

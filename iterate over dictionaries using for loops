@@ -1,0 +1,5 @@
+dict1={1:2,2:8}
+dict2={3:7,4:5}
+for i,j in dict2.items():
+    dict1[i]=j
+print(dict1)

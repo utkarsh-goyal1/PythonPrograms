@@ -1,0 +1,5 @@
+dict={1:2,2:6,3:9}
+if dict=={}:
+    print("dictionary is empty")
+else:
+    print("dictionary is filled")

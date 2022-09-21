@@ -1,0 +1,5 @@
+dict={1:5,2:8,3:9}
+mul=1
+for i in (dict.values()):
+    mul=mul*i
+print(mul)

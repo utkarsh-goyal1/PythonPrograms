@@ -1,0 +1,7 @@
+dict={1:5,2:8,3:9}
+key=int(input("enter the key"))
+if key in dict:
+    dict.pop(key)
+    print(dict)
+else:
+    print("key is not valid")

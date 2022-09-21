@@ -1,0 +1,13 @@
+dict1={}
+size=int(input("enter size"))
+for i in range(0,size):
+    key=int(input())
+    value=int(input())
+    dict1.update({key:value})
+temp={}
+list=[]
+for i,j in dict1.items():
+    if j not in list:
+        list.append(j)
+        temp.update({i:j})
+print(temp)

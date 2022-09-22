@@ -1,0 +1,8 @@
+a=input().split()
+a=list(map(int,a))
+s=set(a)
+b=input().split()
+b=list(map(int,b))
+s1=set(b)
+result=list(s.union(s1))
+print(result)

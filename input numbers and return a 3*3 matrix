@@ -1,0 +1,5 @@
+import numpy
+a=input().split()
+a=list(map(int,a))
+a=numpy.array(a).reshape(3,3)
+print(a)

@@ -1,0 +1,10 @@
+import numpy as np
+m=int(input("entre the no. of rows"))
+n=int(input("entre the no. of columns"))
+m1=[]
+for i in range(m):
+    a=list(map(int,input().split()))
+    m1.append(a)
+m1=np.array(m1)
+maximum=m1.max()
+print(maximum)

@@ -1,0 +1,15 @@
+'''a=int(input("entre the number"))
+a=bin(a)
+print(a)'''
+
+'''a=0b1010
+print(a)'''
+
+'''a=int(input("entre the number"))
+a=oct(a)
+print(a)'''
+
+'''a=int(input("entre the number"))
+a=hex(a)
+print(a)
+'''

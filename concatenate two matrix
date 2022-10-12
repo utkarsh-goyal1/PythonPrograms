@@ -1,0 +1,13 @@
+import numpy as np
+n,m,p=list(map(int,input().split()))
+m1=[]
+for i in range(0,n):
+    a=list(map(int,input().split()))
+    m1.append(a)
+m2=[]
+for i in range(0,m):
+    b=list(map(int,input().split()))
+    m2.append(b)
+a=np.array(m1)
+b=np.array(m2)
+print(np.concatenate(a,b))

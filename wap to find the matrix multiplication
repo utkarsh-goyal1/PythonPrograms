@@ -1,0 +1,13 @@
+'''import numpy as np
+m=int(input())
+n=int(input())
+m1=int(input())
+n1=int(input())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+temp=np.array(a).reshape(m,n)
+temp1=np.array(b).reshape(m1,n1)
+result=np.dot(temp,temp1)
+print(result)
+
+'''

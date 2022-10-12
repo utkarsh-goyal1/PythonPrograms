@@ -1,0 +1,6 @@
+import numpy as np
+a=input().split()
+a=list(map(int,a))
+matrix=np.array(a).reshape(3,3)
+print(matrix)
+print(np.trace(matrix))

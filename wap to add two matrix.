@@ -1,0 +1,9 @@
+import numpy as np
+a=input().split()
+a=list(map(int,a))
+matrix1=np.array(a).reshape(3,3)
+b=input().split()
+b=list(map(int,b))
+matrix2=np.array(b).reshape(3,3)
+c=np.add(a,b)
+print(c)

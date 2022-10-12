@@ -1,0 +1,13 @@
+a={}
+size=int(input())
+for i in range(0,size):
+    name=input()
+    number=int(input())
+    a.update({name:number})
+temp=list(a.keys())
+reqname=input()
+if reqname in temp:
+    c=temp.index(reqname)
+    print(a[temp[c]])
+else:
+    print("Value not found")

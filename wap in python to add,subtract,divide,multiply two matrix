@@ -1,0 +1,10 @@
+import numpy as np
+m=int(input())
+n=int(input())
+if m==n:
+    a=list(map(int,input().split()))
+    b=list(map(int,input().split()))
+    temp=np.array(a).reshape(m,m)
+    temp1=np.array(b).reshape(n,n)
+    result=np.multiply(temp,temp1)# result=np.subtract(temp,temp1)  #result=np.add(temp,temp1)  result=np.divide(temp,temp1)
+    print(result)

@@ -1,0 +1,4 @@
+'''import numpy as np
+a=list(map(int,input().split()))
+s=np.mean(a)     #s=np.sum(a)      s=np.median(a)
+print(s)'''

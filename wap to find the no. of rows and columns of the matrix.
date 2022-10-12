@@ -1,0 +1,7 @@
+import numpy as np
+m=int(input("entre th eno. of rows"))
+n=int(input("entre th eno. of colums"))
+a=input().split()
+a=list(map(int,a))
+temp=np.array(a).reshape(m,n)
+print(temp.shape)'''

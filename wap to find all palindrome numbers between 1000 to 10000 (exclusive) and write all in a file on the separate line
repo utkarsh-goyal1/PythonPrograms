@@ -1,0 +1,11 @@
+x=[]
+for i in range(1000,10000):
+    a=str(i)
+    b=a[::-1]
+    if b==a:
+        x.append(i)
+f=open('sample.txt','w')
+for i in x:
+    f.write(str(i))
+    f.write('\n')
+f.close()
